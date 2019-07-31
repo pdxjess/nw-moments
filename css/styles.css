@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Liu+Jian+Mao+Cao|Mada|Martel+Sans|Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Liu+Jian+Mao+Cao|Mada|Martel+Sans|Quicksand|Poiret+One&display=swap');
 *,
 *::after,
 *::before {
@@ -93,7 +93,7 @@ body {
   min-height: 100vh;
   width: auto;
   position: relative;
-  background: url("../img/headerimg13.jpg") no-repeat center/cover; }
+  background: url("../img/headerimg13.png") no-repeat center/cover; }
   .hero-area .hero-background {
     height: 100vh;
     width: 100%;
@@ -164,6 +164,9 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: space-around;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 25px;
+  letter-spacing: 3px;
 }
 .about-header {
   font-family: 'Cedarville Cursive', cursive;
@@ -171,10 +174,13 @@ body {
   margin: 3px;
   padding: 10px;
   font-size: 50px;
+  margin-bottom: 30px;
 }
 .about-area img {
-  max-width: 800px;
-  max-height: 600px;
+  float: left;
+  padding: 0 20px 20px 0;
+  max-width: 550px;
+  max-height: 550px;
 }
 
 .investment-area {
