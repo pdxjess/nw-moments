@@ -1,12 +1,5 @@
 <center><h1>NW Moments</h1></center>
 
-<center>
-
-![NW Moments](img/website-screenshot.png?raw=true "Optional Title")
-
-</center>
-
-
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![Build Status](https://travis-ci.org/anfederico/Clairvoyant.svg?branch=master)](https://travis-ci.org/anfederico/Clairvoyant)
