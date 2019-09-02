@@ -15,7 +15,7 @@ This project is to demonstrate creative maintenance I would do to an existing si
 
 ## Setup/Installation Requirements
 
-* _Deploy this site: pdxjess.github.io/NW-Moments
+* _Deploy this site: pdxjess.github.io/NW-Moments_
 
 ## Known Bugs
 
