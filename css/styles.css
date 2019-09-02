@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Liu+Jian+Mao+Cao|Mada|Martel+Sans|Quicksand|Poiret+One&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
 *,
 *::after,
 *::before {
@@ -168,6 +172,7 @@ body {
   font-family: 'Cedarville Cursive', cursive;
   font-size: 25px;
   letter-spacing: 3px;
+  height: 100vh;
 }
 .about-header {
   font-family: 'Cedarville Cursive', cursive;
@@ -186,11 +191,29 @@ body {
   max-width: 50px;
   max-height: 50px;
 }
+.investment-header {
+font-family: 'Cedarville Cursive', cursive;
+text-align: center;
+margin: 20px;
+padding: 10px;
+font-size: 50px;
+}
+
+.container-column {
+  font-size: 25px;
+  text-align: center;
+}
+
+.plan-header {
+  text-decoration: underline;
+}
 
 .investment-area {
   color: #2B2D42;
   text-align: center;
   padding: 2rem;
+  height: 100vh;
+  font-family: 'Mada', sans-serif;
   font-size: .8rem; }
   @media (min-width: 640px) {
     .investment-area {
@@ -227,24 +250,6 @@ body {
     text-align: left;
     font-family: "Poiret One", serif; }
 
-.friends {
-  align-items: center;
-  background-color: #2B2D42;
-  display: flex;
-  flex-direction: column;
-  font-size: .8rem;
-  padding: 2rem;
-  text-align: center; }
-  @media (min-width: 640px) {
-    .friends {
-      padding: 5rem; } }
-  @media (min-width: 1024px) {
-    .friends {
-      font-size: 1rem; } }
-  .friends .purveyors {
-    font-family: "Poiret One", serif;
-    margin-top: 2rem;
-    max-width: 1024px; }
 .navbar .title {
   font-family: 'Cedarville Cursive', cursive;
   font-size: 27px;
@@ -323,7 +328,7 @@ body {
 .footer {
   height: 4rem;
   padding: 0 1rem;
-  background-color: #848FA3; }
+  background-color: #F2EAED; }
   @media (min-width: 640px) {
     .footer {
       padding: 0 2rem; } }
